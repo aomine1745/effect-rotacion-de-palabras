@@ -1,0 +1,34 @@
+/* workstation --------------------------------------*/
+.background{
+	background-color: #FF8A00;
+	height: 100vh;
+	width: 100%;
+	color: #fff;
+}
+.effect-container{
+	height: 50px;
+	overflow: hidden;
+	font-size: 30px;
+	line-height: 42.5px;
+}
+.effect-ul{
+	list-style: none;
+	animation: rotar 5s infinite;
+	padding-left: 0;
+}
+@keyframes rotar{
+	0%{margin-top: 0px;}
+	20%{margin-top: 0px;}
+
+	25%{margin-top: -40px;}
+	50%{margin-top: -40px;}
+
+	55%{margin-top: -80px;}
+	80%{margin-top: -80px;}
+
+	85%{margin-top: -40px;}
+	95%{margin-top: -40px;}
+
+	100%{margin-top: 0px;}
+}
+/* workstation --------------------------------------*/
